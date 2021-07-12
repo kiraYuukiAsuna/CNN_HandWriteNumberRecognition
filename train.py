@@ -24,5 +24,7 @@ class Train:
         print("准确率: %.4f，共测试了%d张图片 " % (test_acc, len(self.data.test_labels)))
 
 if __name__ == "__main__":
+    print("by-生物医学工程2班-王瑞龙-2019213336\n")
     app = Train()
+    print("开始训练并测试：")
     app.train()

@@ -59,4 +59,3 @@ class DataRead(object):
         self.train_images, self.train_labels = train_images, train_labels
         self.test_images, self.test_labels = test_images, test_labels
 
-
